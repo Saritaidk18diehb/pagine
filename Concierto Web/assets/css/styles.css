@@ -1,0 +1,211 @@
+/*Universal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    background-color: rgb(228, 243, 252);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: center;
+    border-radius: 15px;
+    padding: 25px;
+}
+.Boletería table{
+    margin: 0 auto;
+}
+
+h2{
+    color: rgb(252, 161, 161);
+    font-size: 2em;
+
+}
+/*nav y header*/
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+}
+
+nav img{
+    width: 3em;
+    margin-left: 6em;
+}
+nav form{
+    margin-right: 5em;
+}
+#btn-buscar{
+    background-color:   rgb(228, 243, 252);
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+}
+#btn-buscar:hover{
+    box-shadow: 2px 2px 1px rgb(119, 119, 119);
+    cursor: pointer;
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+.lista-nav a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(172, 250, 195);
+}
+
+.lista-nav a:hover{
+    color: rgb(255, 188, 246);
+    text-decoration: underline rgb(255, 188, 246) 1px;
+}
+
+/*Información del Artista*/
+
+.Artista p{
+    text-align: justify center;
+    font-size: 1.5em;
+}
+.informacion-artista{
+    margin-bottom: 2em;
+}
+.video{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+/*MUSICA*/
+h5{
+    margin: 1em;
+}
+.Música p{
+    white-space: pre;
+    padding-right: 2em;
+}
+
+/*GALERIA*/
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    margin: auto 100px;
+}
+.cards img{
+    border-radius: 15px;
+}
+
+.cards img:hover{
+    box-shadow: 10px 10px 5px rgb(83, 83, 83);
+}
+
+/*Lugar*/
+
+.Lugar h2{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.Lugar p{
+    font-size: 1.5em;
+}
+
+/*Boletería*/
+
+table{
+    width: 400px;
+}
+table tr{
+    border: 1px black solid;
+}
+table td{
+    border: 1px black solid;
+}
+table th{
+    border: 1px black solid;
+}
+
+/*CONTACTO*/
+.formulario{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+#formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    margin: 20px;
+    
+}
+
+#formulario-contacto label{
+    background-color: rgb(217, 248, 248);
+    margin: 1em;
+    border-radius: 15px;
+}
+
+.Contacto button{
+    background-color: rgb(217, 248, 248);
+    border-radius: 15px;
+    border: none;
+}
+
+.Contacto button:hover{
+    background-color: rgb(199, 250, 250);
+    border-radius: 15px;
+    border: 1px black solid;
+    box-shadow: 2px 2px 1px rgb(83, 83, 83);
+    cursor:pointer;
+}
+
+/* FOOTER */ 
+
+.redes{
+    background-color: rgb(255, 255, 255);
+}
+.redes ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    padding: 5px;
+    font-size: 2em;
+    color: rgb(252, 161, 161);
+}
+
+.redes img{
+    border-radius: 5px;
+    width: 30px;
+    margin-top: 5px;
+}
+
+
+.abajo{
+    background-color: rgb(228, 243, 252);
+    text-align: center;
+    padding: 15px;
+}
+
